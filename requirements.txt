@@ -1,6 +1,7 @@
-streamlit
-pyzbar
-pillow
-opencv-python-headless
-numpy
-kivy
+streamlit==1.29.0
+streamlit-webrtc==0.47.1
+opencv-python-headless==4.8.1.78
+pyzbar==0.1.9
+av==11.0.0
+pillow==10.1.0
+numpy==1.24.4
