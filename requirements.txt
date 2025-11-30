@@ -3,3 +3,4 @@ pyzbar
 pillow
 opencv-python-headless
 numpy
+kivy
