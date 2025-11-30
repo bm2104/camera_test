@@ -76,4 +76,5 @@ else:
 # 세션 상태에 저장된 마지막 스캔 결과 표시
 if st.session_state.barcode_data:
     st.markdown("### 📝 마지막 스캔 결과:")
+
     st.code(st.session_state.barcode_data)
