@@ -77,8 +77,3 @@ else:
 if st.session_state.barcode_data:
     st.markdown("### 📝 마지막 스캔 결과:")
     st.code(st.session_state.barcode_data)
-    
-    # 클립보드 복사 버튼 (선택사항)
-    if st.button("📋 클립보드에 복사"):
-        st.write("복사되었습니다!")
-        st.balloons()
