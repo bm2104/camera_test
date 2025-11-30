@@ -1,7 +1,5 @@
 streamlit
-gspread
-google-auth
-google-auth-oauthlib
-google-auth-httplib2
-pandas
 pyzbar
+pillow
+opencv-python-headless
+numpy

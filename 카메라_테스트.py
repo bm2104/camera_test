@@ -28,7 +28,7 @@ if st.session_state.show_camera:
             for obj in decoded_object:
                 st.success('바코드 인식 성공!')
                 st.write(f'**타입:**{obj.type}')
-                st.write(f'**데이터:** {obj.data.decode('utf-8')}')
+                st.write(f"**데이터:** {obj.data.decode('utf-8')}")
         else:
             st.warning('바코드를 찾을 수 없습니다.')
 
